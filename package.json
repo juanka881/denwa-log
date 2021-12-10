@@ -1,6 +1,6 @@
 {
   "name": "@denwa/log",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "helper wrapper around pino log",
   "main": "index.js",
   "scripts": {
