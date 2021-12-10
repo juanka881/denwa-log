@@ -1,6 +1,6 @@
 {
   "name": "@denwa/log",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "helper wrapper around pino log",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,6 @@
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.3.0",
-    "@types/dateformat": "^5.0.0",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.11.12",
     "@types/pump": "^1.1.1",
@@ -27,8 +26,9 @@
   },
   "dependencies": {
     "@denwa/tiny": "^1.0.0",
+    "@types/dateformat": "^5.0.0",
     "chalk": "4.1.2",
-    "dateformat": "^5.0.2",
+    "dateformat": "4.5.1",
     "pino": "^7.5.1",
     "pump": "^3.0.0",
     "split2": "^4.1.0",

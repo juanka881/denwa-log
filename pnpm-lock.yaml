@@ -10,7 +10,7 @@ specifiers:
   '@types/split2': ^3.2.1
   chai: ^4.3.4
   chalk: 4.1.2
-  dateformat: ^5.0.2
+  dateformat: 4.5.1
   mocha: ^9.1.3
   pino: ^7.5.1
   pump: ^3.0.0
@@ -21,8 +21,9 @@ specifiers:
 
 dependencies:
   '@denwa/tiny': 1.0.0
+  '@types/dateformat': 5.0.0
   chalk: 4.1.2
-  dateformat: 5.0.2
+  dateformat: 4.5.1
   pino: 7.5.1
   pump: 3.0.0
   split2: 4.1.0
@@ -30,7 +31,6 @@ dependencies:
 
 devDependencies:
   '@types/chai': 4.3.0
-  '@types/dateformat': 5.0.0
   '@types/mocha': 9.0.0
   '@types/node': 16.11.12
   '@types/pump': 1.1.1
@@ -56,7 +56,7 @@ packages:
 
   /@types/dateformat/5.0.0:
     resolution: {integrity: sha512-SZg4JdHIWHQGEokbYGZSDvo5wA4TLYPXaqhigs/wH+REDOejcJzgH+qyY+HtEUtWOZxEUkbhbdYPqQDiEgrXeA==}
-    dev: true
+    dev: false
 
   /@types/mocha/9.0.0:
     resolution: {integrity: sha512-scN0hAWyLVAvLR9AyW7HoFF5sJZglyBsbPuHO4fv7JRvfmPBMfp1ozWqOf/e4wwPNxezBZXRfWzMb6iFLgEVRA==}
@@ -210,9 +210,8 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
-  /dateformat/5.0.2:
-    resolution: {integrity: sha512-h9vywpuz+ReixnJTwFx5JLtZpS8eLCbRm8shwwKkCKOZA547N6yoMtD3W91Z6+NFZ8wOaZlcaCcK/w+kELhSVg==}
-    engines: {node: '>=12.20'}
+  /dateformat/4.5.1:
+    resolution: {integrity: sha512-OD0TZ+B7yP7ZgpJf5K2DIbj3FZvFvxgFUuaqA/V5zTjAtAAXZ1E8bktHxmAGs4x5b7PflqA9LeQ84Og7wYtF7Q==}
     dev: false
 
   /debug/4.3.2_supports-color@8.1.1:
