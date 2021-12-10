@@ -1,0 +1,37 @@
+{
+  "name": "@denwa/log",
+  "version": "1.0.0",
+  "description": "helper wrapper around pino log",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "tsc && cp -v package.json dist/src",
+    "dev": "tsc -w",
+    "pretest": "pnpm run build",
+    "test": "mocha dist/test/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/dateformat": "^5.0.0",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.12",
+    "@types/pump": "^1.1.1",
+    "@types/split2": "^3.2.1",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "@denwa/tiny": "^1.0.0",
+    "chalk": "^5.0.0",
+    "dateformat": "^5.0.2",
+    "pino": "^7.5.1",
+    "pump": "^3.0.0",
+    "split2": "^4.1.0",
+    "tslib": "^2.3.1"
+  }
+}
